@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Currency Converter</title>
+</head>
+
+<body>
+    <div class="phone-mockup">
+        <div class="app-title">Currency Converter</div>
+
+
+        <div class="converter-card">
+            <div class="section-title">Amount</div>
+            <div class="currency-row">
+                <div class="dropdown from-dropdown">
+                    <button class="dropdown-btn" data-code="USD">
+                        <img src="https://flagsapi.com/US/flat/64.png" class="flag"> USD <span class="arrow">▼</span>
+                    </button>
+                    <div class="dropdown-content"></div>
+                </div>
+                <input type="text" class="amount" value="1.00">
+            </div>
+
+
+            <div class="divider">
+                <div class="swap">
+                    <button id="swap-btn">⇅</button>
+                </div>
+            </div>
+
+
+            <div class="section-title">Converted Amount</div>
+            <div class="currency-row">
+                <div class="dropdown to-dropdown">
+                    <button class="dropdown-btn" data-code="SGD">
+                        <img src="https://flagsapi.com/SG/flat/64.png" class="flag"> SGD <span class="arrow">▼</span>
+                    </button>
+                    <div class="dropdown-content"></div>
+                </div>
+                <input type="text" class="amount">
+            </div>
+        </div>
+        <div class="exchange-rate">Indicative Exchange Rate<br><strong>Loading...</strong></div>
+    </div>
+  </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
