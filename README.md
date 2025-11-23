@@ -31,17 +31,23 @@
 
 1. Склонируйте проект:  
 git clone https://github.com/your-username/currency-converter.git
+
 2.Перейдите в папку проекта:
 cd Сurrency Сonverter
+
+
 3.Откройте index.html в браузере
 
 
 
 ## 📂 Структура проекта
-
+```bash
 Currency Converter/
 │── index.html       # Основная разметка
 │── style.css        # Стили приложения
 │── script.js        # Логика конвертера + API
 └── README.md        # Описание проекта
+ ```
+## Дизайн из figma
 
+https://www.figma.com/design/VeJGHlFnJ4sdh3JAo1i866/Currency-Converter--Community-?node-id=0-1&t=D5ZGDqVCSvXXSTQx-1
